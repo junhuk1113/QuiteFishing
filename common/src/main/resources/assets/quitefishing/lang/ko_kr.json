@@ -1,0 +1,6 @@
+{
+    "quitefishing.midnightconfig.title":"QuiteFishing 설정",
+    "quitefishing.midnightconfig.isMuteotherfishingbobber":"다른 사람 낚시찌 음소거",
+    "quitefishing.midnightconfig.floatSlider":"낚시 찌 소리 크기",
+    "quitefishing.midnightconfig.floatSlider.tooltip":"위 설정이 '예'일 때 낚시 찌 소리의 크기를 조절합니다."
+}

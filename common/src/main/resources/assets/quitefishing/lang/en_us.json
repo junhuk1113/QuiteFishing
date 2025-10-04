@@ -1,0 +1,6 @@
+{
+    "quitefishing.midnightconfig.title":"QuiteFishing config",
+    "quitefishing.midnightconfig.isMuteotherfishingbobber":"Mute other fishing bobber sounds",
+    "quitefishing.midnightconfig.floatSlider":"The volume of the fishing bobber sound",
+    "quitefishing.midnightconfig.floatSlider.tooltip":"Adjusts the volume of the fishing bobber sound when the above setting is true"
+}

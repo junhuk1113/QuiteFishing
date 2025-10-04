@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "net.pmkjun.quitefishing.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "minVersion": "0.8",
+  "client": [
+    "FishingBobberSilentMixin"
+  ],
+  "mixins": [
+    "FishingMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "quitefishing",
+  "version": "${version}",
+  "name": "Quite Fishing",
+  "description": "${modDescription}",
+  "authors": ["${modAuthor}"],
+  "contributors":["${modCredits}"],
+  "contact": {
+    "homepage": "${githubUrl}",
+    "sources": "${githubUrl}"
+  },
+  "license": "MIT",
+  "icon": "assets/quitefishing/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.pmkjun.quitefishing.fabric.QuiteFishingFabric"
+    ],
+    "modmenu": [
+      "net.pmkjun.quitefishing.fabric.QuiteFishingModMenu"
+    ]
+  },
+  "mixins": [
+    "quitefishing.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.17.2",
+    "minecraft": ">=1.20.6",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
