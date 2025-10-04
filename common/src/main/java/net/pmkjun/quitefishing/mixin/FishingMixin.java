@@ -26,7 +26,9 @@ public abstract class FishingMixin {
     @Shadow
     private boolean biting;
 
-    @Shadow @Nullable public abstract Player getPlayerOwner();
+    @Shadow @Nullable public Player getPlayerOwner(){
+        return null;
+    };
     
     @Inject(method = "tick",at = @At("HEAD"))
     private void ontickMixin(CallbackInfo ci){
