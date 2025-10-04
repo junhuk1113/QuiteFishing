@@ -12,7 +12,7 @@ credits="${modCredits}"
 description = '''
 ${modDescription}
 '''
-#logoFile = ""
+logoFile = "assets/quitefishing/icon.png"
 
 [[dependencies.quitefishing]]
 modId = "neoforge"
